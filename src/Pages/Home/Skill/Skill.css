@@ -1,0 +1,141 @@
+
+.skills {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 70px);
+    margin: 20px;
+  }
+ .skl{
+     margin-left: 20px;
+     color: yellow;
+ }
+.sklLine{
+    position: relative;
+    bottom: 8px;
+    visibility: hidden;
+    padding-left: 6px;
+    color: greenyellow;
+}
+  .ProgWidth {
+    padding: 0px 20px;
+  }
+  .skillDiv {
+    height: 15px;
+    width: 100%;
+    background-color: gray;
+  }
+  .skillBar {
+    display: block;
+    height: 15px;
+    background-color: rgb(81, 187, 6);
+  }
+  .p {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .htmlBar {
+    width: 70%;
+    animation: html 3s 1s 15 forwards;
+  }
+  .cssBar {
+    width: 70%;
+    animation: css 3s 1s 15 forwards;
+  }
+  .jsBar {
+    width: 75%;
+    animation: js 3s 1s 15 forwards;
+  }
+  
+  .javaBar {
+    width: 85%;
+    animation: java 3s 1s 15 forwards;
+  }
+  .ccpBar {
+    width: 80%;
+    animation: ccp 3s 1s 15 forwards;
+  }
+  .reactBar {
+    width: 10%;
+    animation: react 3s 1s 15 forwards;
+  }
+  .nodeBar {
+    width: 35%;
+    animation: node 3s 1s 15 forwards;
+  }
+  .sqlBar {
+    width: 85%;
+    animation: sql 3s 1s 15 forwards;
+  }
+  .divider{
+    color:rgb(81, 187, 6);
+   
+    font-weight: bold;
+  }
+  
+  @keyframes html {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 95%;
+    }
+  }
+  @keyframes css {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes js {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 75%;
+    }
+  }
+  @keyframes java {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 85%;
+    }
+  }
+  @keyframes ccp {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  @keyframes react {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes node {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 35%;
+    }
+  }
+
+  @keyframes sql {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 85%;
+    }
+  }
