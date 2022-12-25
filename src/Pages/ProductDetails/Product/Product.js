@@ -12,7 +12,7 @@ const Product = ({card}) => {
              <h1 className='text-3xl mb-20'>Product Details</h1>
            </div>
             
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-10'>
+            <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10'>
                 {
                     product.map(productCategorie=><ProductData key={productCategorie.website_id} productCategorie={productCategorie}></ProductData>)
                 }

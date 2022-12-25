@@ -6,10 +6,10 @@ const Skill = () => {
     return (
         <div className=''>
           <h1 className='text-center divider text-2xl md:text-3xl mt-24'>My Skill</h1>
-    <div className="skills">
+    <div className="skills grid md:grid-cols-2">
       <p className="skl"></p>
       <p className="skl sklLine">_________</p>
-      <div className="htmlProg ProgWidth">
+      <div className="htmlProg ProgWidth mb-4">
         <div className="p">
           <p>HTML</p>
           <p>95%</p>
@@ -20,7 +20,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-      <div className="cssProg ProgWidth">
+      <div className="cssProg ProgWidth mb-4">
         <div className="p">
           <p>CSS</p>
           <p>70%</p>
@@ -31,7 +31,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-      <div className="jsProg ProgWidth">
+      <div className="jsProg ProgWidth mb-4">
         <div className="p">
           <p>Tailwind CSS</p>
           <p>75%</p>
@@ -42,7 +42,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-      <div className="javaProg ProgWidth">
+      <div className="javaProg ProgWidth mb-4">
         <div className="p">
           <p>Bootstrap</p>
           <p>85%</p>
@@ -53,7 +53,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-      <div className="c/c++Prog ProgWidth">
+      <div className="c/c++Prog ProgWidth mb-4">
         <div className="p">
           <p>JavaScript</p>
           <p>80%</p>
@@ -64,7 +64,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-      <div className="reactProg ProgWidth">
+      <div className="reactProg ProgWidth mb-4">
         <div className="p">
           <p>React.js</p>
           <p>70%</p>
@@ -75,7 +75,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-      <div className="nodeProg ProgWidth">
+      <div className="nodeProg ProgWidth mb-4">
         <div className="p">
           <p>Mongodb</p>
           <p>35%</p>
@@ -86,7 +86,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-      <div className="sqlProg ProgWidth">
+      <div className="sqlProg ProgWidth mb-4">
         <div className="p">
           <p>Node.js</p>
           <p>85%</p>

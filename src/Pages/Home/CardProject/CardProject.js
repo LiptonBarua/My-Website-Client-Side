@@ -8,11 +8,11 @@ const CardProjects = ({ card }) => {
    console.log(image1)
     return (
         <div data-aos="flip-up">
-            <div className="card card-compact bg-base-100 shadow-2xl ">
+            <div className="card card-compact bg-base-100 shadow-3xl ">
                 <figure><img src={image1} alt="" /></figure>
                 <div className="card-body mt-4">
                     <h2 className="card-title">{website_name}</h2>
-                    <a href={website}> <button className="btn btn-sm btn-info w-full">Live Site</button></a>
+                    <a href={website} target="_blank"> <button className="btn btn-sm btn-info w-full">Live Site</button></a>
                   
                     <div className="flex justify-between mt-5">
                         <a href={githubClient}> <button className="btn btn-sm btn-info w-full">Github Client</button></a>
