@@ -12,14 +12,14 @@ const CardProjects = ({ card }) => {
                 <figure><img src={image1} alt="" /></figure>
                 <div className="card-body mt-4">
                     <h2 className="card-title">{website_name}</h2>
-                    <a href={website} target="_blank"> <button className="btn btn-sm btn-info w-full">Live Site</button></a>
+                    <a href={website} target="_blank"> <button className="bg-[navy] text-white py-2 px-3 w-full">Live Site</button></a>
                   
-                    <div className="flex justify-between mt-5">
-                        <a href={githubClient}> <button className="btn btn-sm btn-info w-full">Github Client</button></a>
-                        <a href={githubServer}> <button className="btn btn-sm btn-info w-full">Github Server</button></a>
+                    <div className="flex justify-between ">
+                        <a href={githubClient}> <button className="bg-[navy] text-white py-2 px-3 w-full">Github Client</button></a>
+                        <a href={githubServer}> <button className="bg-[navy] text-white py-2 px-3 w-full">Github Server</button></a>
                         
                     </div>
-                    <Link to={`/product/${_id}`}><button className="btn btn-sm btn-info w-full">Project Details</button></Link>
+                    <Link to={`/product/${_id}`}><button className="bg-[navy] text-white py-2 px-3 w-full">Project Details</button></Link>
                 </div>
             </div>
         </div>

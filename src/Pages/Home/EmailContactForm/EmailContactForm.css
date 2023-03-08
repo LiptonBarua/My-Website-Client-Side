@@ -12,7 +12,7 @@ h2 {
 }
 .form-container {
   display:flex;
-  background-color: #81073c36;
+  /* background-color: #81073c36; */
   border-radius: 10px;
   padding-bottom: 30px;
 }
@@ -51,12 +51,7 @@ h2 {
   text-align:center;
 }
 
-.left-inner-container {
-  height:50%;
-  width:80%;
-  text-align:center;
-  line-height:22px;
-}
+
 
 input, textarea {
 	background-color: rgb(179, 166, 166);
@@ -72,20 +67,7 @@ input:focus, textarea:focus{
   outline:1px solid teal;
 }
 
-.submit{
-	border-radius: 20px;
-	/* border: 1px solid #00b4cf; */
-	/* background-color: #00b4cf; */
-	color: #080808;
-	font-size: 12px;
-	font-weight: bold;
-	padding: 12px 45px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
 
-	transition: transform 80ms ease-in;
-  cursor:pointer;
-}
 
 button:hover {
   opacity:0.7;

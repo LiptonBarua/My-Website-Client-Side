@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import './EmailContactForm.css'
 import emailjs from '@emailjs/browser';
 import image from '../../../assets/Image/contact.svg'
+import { Player } from '@lottiefiles/react-lottie-player';
 
 
 
@@ -21,12 +22,13 @@ const EmailContactForm = () => {
     }
     return (
         <div>
-            <div className="">
-                <div className="form-container my-32">
+            <div className="bg-[#DDE4F8]" id='contact'>
+                <div className="form-container flex items-center mt-32">
                     <div className="left-container">
-                        <div className="left-inner-container">
-                            <img src={image} alt="" className='mt-11' />
-                        </div>
+                    <Player className='w-[700px]'
+							autoplay
+							loop
+							src="https://assets7.lottiefiles.com/packages/lf20_fdo8bkv7.json"></Player>
                     </div>
                     <div className="right-container">
                         <div className="right-inner-container">
@@ -51,8 +53,9 @@ const EmailContactForm = () => {
                                <p>Message</p>
                                <textarea rows="4" name='message' placeholder="Message" required></textarea>
                            </div>
-                            <div className='md:ml-72'>
-                            <button className='submit  bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-pink-500 hover:to-yellow-500 text-black'>Submit</button>
+                            <div className=''>
+                            <button className='text-[navy] border border-[navy] hover:bg-[navy] hover:text-white  font-bold uppercase text-xs px-4 py-3 rounded outline-none  mr-1 mb-1'>Submit</button>
+                           
                             </div>
             
                               </div>

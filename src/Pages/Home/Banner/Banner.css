@@ -1,0 +1,15 @@
+.backgroundImage{
+    background: url('../../../assets/Image/Futuristic Modern Zoom Virtual Background.png');
+    position: relative;
+    background-size: cover;
+    /* height: 700px; */
+}
+.backgroundImage::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
