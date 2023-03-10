@@ -19,7 +19,7 @@ const CardProjects = ({ card }) => {
                         <a href={githubServer}> <button className="bg-[navy] text-white py-2 px-3 w-full">Github Server</button></a>
                         
                     </div>
-                    <Link to={`/product/${_id}`}><button className="bg-[navy] text-white py-2 px-3 w-full">Project Details</button></Link>
+                    {/* <Link to={`/product/${_id}`}><button className="bg-[navy] text-white py-2 px-3 w-full">Project Details</button></Link> */}
                 </div>
             </div>
         </div>

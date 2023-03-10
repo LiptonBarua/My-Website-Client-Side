@@ -97,6 +97,28 @@ const Skill = () => {
           </div>
         </div>
       </div>
+      <div className="expressProg ProgWidth mb-4">
+        <div className="p">
+          <p>Express.js</p>
+          <p>65%</p>
+        </div>
+        <div className="pp">
+          <div className="skillDiv">
+            <span className="skillBar expressBar"></span>
+          </div>
+        </div>
+      </div>
+      <div className="nextProg ProgWidth mb-4">
+        <div className="p">
+          <p>Next.js</p>
+          <p>75%</p>
+        </div>
+        <div className="pp">
+          <div className="skillDiv">
+            <span className="skillBar nextBar"></span>
+          </div>
+        </div>
+      </div>
     </div>
         </div>
     );

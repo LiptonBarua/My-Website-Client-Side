@@ -62,9 +62,16 @@
     width: 85%;
     animation: sql 3s 1s 15 forwards;
   }
+  .expressBar{
+    width: 65%;
+    animation: express 3s 1s 15 forwards;
+  }
+  .nextBar{
+    width: 75%;
+    animation: express 3s 1s 15 forwards;
+  }
   .divider{
     color:navy;
-   
     font-weight: bold;
   }
   
@@ -131,5 +138,22 @@
     }
     100% {
       width: 85%;
+    }
+  }
+
+  @keyframes express {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 65%;
+    }
+  }
+  @keyframes next {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 75%;
     }
   }
