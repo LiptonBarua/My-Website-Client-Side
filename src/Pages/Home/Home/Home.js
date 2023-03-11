@@ -16,10 +16,10 @@ const Home = () => {
             <About className='lg:max-w-[90%] mx-auto'></About>
             <Skill></Skill>
             <SmallBanner></SmallBanner>
-            <div className='lg:max-w-[90%] mx-auto'>
-             <h1 className='uppercase text-[navy] font-semibold'>My Works</h1>
-             <h2 className='text-2xl font-bold text-black'>Latest Project</h2>
-            <div className='px-4 lg:px-0 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8 my-10'>
+            <div className='px-4 lg:px-0  lg:max-w-[90%] mx-auto'>
+             <h1 className='uppercase text-[navy] dark:text-[#077612] font-semibold'>My Works</h1>
+             <h2 className='text-2xl font-bold text-black dark:text-white'>Latest Project</h2>
+            <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8 my-10'>
               {
                  cards?.map(card=><CardProjects key={card._id} card={card}></CardProjects>)
                }

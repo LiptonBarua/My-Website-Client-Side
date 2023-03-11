@@ -13,3 +13,18 @@
     right: 0;
 
 }
+.darkBackgroundImage{
+    background: url('../../../assets/Image/dFuturistic Modern Zoom Virtual Background.png');
+    position: relative;
+    background-size: cover;
+    /* height: 700px; */
+}
+.darkBackgroundImage::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}

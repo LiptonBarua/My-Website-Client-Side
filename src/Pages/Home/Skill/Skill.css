@@ -24,6 +24,11 @@
     height: 15px;
     background-color: navy;
   }
+  .darkSkillBar {
+    display: block;
+    height: 15px;
+    background-color: #077612;
+  }
   .p {
     display: flex;
     justify-content: space-between;

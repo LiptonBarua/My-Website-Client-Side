@@ -1,12 +1,16 @@
+import { useTheme } from 'next-themes';
 import React from 'react';
 
 import './Skill.css'
 
 const Skill = () => {
+  const{theme} =useTheme();
+
+
     return (
         <div className='mx-4 lg:max-w-[90%] lg:mx-auto py-24' id='skill'>
-          <h1 className='text-center divider text-2xl md:text-3xl mt-24'>My Skill</h1>
-    <div className=" grid md:grid-cols-2">
+          <h1 className='text-center divider dark:text-[#077612] text-2xl md:text-3xl mt-24'>My Skill</h1>
+    <div className=" grid md:grid-cols-2 dark:text-white">
       <p className="skl"></p>
       <p className="skl sklLine">_________</p>
       <div className="htmlProg ProgWidth mb-4">
@@ -16,7 +20,10 @@ const Skill = () => {
         </div>
         <div className="pp">
           <div className="skillDiv">
-            <span className="skillBar htmlBar"></span>
+            {
+              theme==='dark' ?  <span className="darkSkillBar htmlBar"></span> :  <span className="skillBar htmlBar"></span>
+            }
+           
           </div>
         </div>
       </div>
@@ -27,7 +34,9 @@ const Skill = () => {
         </div>
         <div className="pp">
           <div className="skillDiv">
-            <span className="skillBar cssBar"></span>
+            {
+              theme==='dark' ?  <span className="darkSkillBar jsBar"></span> :  <span className="skillBar jsBar"></span>
+            }
           </div>
         </div>
       </div>
@@ -38,7 +47,9 @@ const Skill = () => {
         </div>
         <div className="pp">
           <div className="skillDiv">
-            <span className="skillBar jsBar"></span>
+            {
+              theme==='dark' ?  <span className="darkSkillBar jsBar"></span> :  <span className="skillBar jsBar"></span>
+            }
           </div>
         </div>
       </div>
@@ -49,7 +60,9 @@ const Skill = () => {
         </div>
         <div className="pp">
           <div className="skillDiv">
-            <span className="skillBar javaBar"></span>
+            {
+              theme==='dark' ?  <span className="darkSkillBar javaBar"></span> :  <span className="skillBar javaBar"></span>
+            }
           </div>
         </div>
       </div>
@@ -60,7 +73,9 @@ const Skill = () => {
         </div>
         <div className="pp">
           <div className="skillDiv">
-            <span className="skillBar ccpBar"></span>
+          {
+              theme==='dark' ?  <span className="darkSkillBar ccpBar"></span> :  <span className="skillBar ccpBar"></span>
+            }
           </div>
         </div>
       </div>
@@ -71,7 +86,9 @@ const Skill = () => {
         </div>
         <div className="pp">
           <div className="skillDiv">
-            <span className="skillBar reactBar"></span>
+            {
+              theme==='dark' ?  <span className="darkSkillBar reactBar"></span> :  <span className="skillBar reactBar"></span>
+            }
           </div>
         </div>
       </div>
@@ -82,7 +99,9 @@ const Skill = () => {
         </div>
         <div className="pp">
           <div className="skillDiv">
-            <span className="skillBar nodeBar"></span>
+          {
+              theme==='dark' ?  <span className="darkSkillBar nodeBar"></span> :  <span className="skillBar nodeBar"></span>
+            }
           </div>
         </div>
       </div>
@@ -93,7 +112,9 @@ const Skill = () => {
         </div>
         <div className="pp">
           <div className="skillDiv">
-            <span className="skillBar sqlBar"></span>
+            {
+              theme==='dark' ?  <span className="darkSkillBar sqlBar"></span> :  <span className="skillBar sqlBar"></span>
+            }
           </div>
         </div>
       </div>
@@ -104,7 +125,10 @@ const Skill = () => {
         </div>
         <div className="pp">
           <div className="skillDiv">
-            <span className="skillBar expressBar"></span>
+
+            {
+              theme==='dark' ?  <span className="darkSkillBar expressBar"></span> :  <span className="skillBar expressBar"></span>
+            }
           </div>
         </div>
       </div>
@@ -115,7 +139,9 @@ const Skill = () => {
         </div>
         <div className="pp">
           <div className="skillDiv">
-            <span className="skillBar nextBar"></span>
+            {
+              theme==='dark' ?  <span className="darkSkillBar nextBar"></span> :  <span className="skillBar nextBar"></span>
+            }
           </div>
         </div>
       </div>
