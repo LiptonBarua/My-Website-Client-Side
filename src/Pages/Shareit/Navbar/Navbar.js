@@ -39,19 +39,19 @@ const Navbar = () => {
 	}
 
  const manuItem=<>
- <li><Link to='/' className='text-gray-600 hover:text-[navy] dark:text-white dark:hover:text-[#077612] font-semibold'>Home</Link></li>
- <li><a href='Lipton Barua Resume.pdf' className='text-gray-600 hover:text-[navy] dark:text-white dark:hover:text-[#077612] font-semibold' download='Lipton Barua Resume.pdf'>Resume</a></li>
- <li><a href='#about'  className='text-gray-600 hover:text-[navy] dark:text-white dark:hover:text-[#077612] font-semibold'>About</a></li>
- <li><a href='#skill'  className='text-gray-600 hover:text-[navy] dark:text-white dark:hover:text-[#077612] font-semibold'>Skill</a></li>
- <li><a href='#contact'  className='text-gray-600 hover:text-[navy] dark:text-white dark:hover:text-[#077612] font-semibold'>Contact</a></li>
+ <li><Link to='/' className='text-gray-600 hover:text-[navy] dark:text-white dark:hover:text-[#1bacef] font-semibold'>Home</Link></li>
+ <li><a href='Lipton Barua Resume.pdf' className='text-gray-600 hover:text-[navy] dark:text-white dark:hover:text-[#1bacef] font-semibold' download='Lipton Barua Resume.pdf'>Resume</a></li>
+ <li><a href='#about'  className='text-gray-600 hover:text-[navy] dark:text-white dark:hover:text-[#1bacef] font-semibold'>About</a></li>
+ <li><a href='#skill'  className='text-gray-600 hover:text-[navy] dark:text-white dark:hover:text-[#1bacef] font-semibold'>Skill</a></li>
+ <li><a href='#contact'  className='text-gray-600 hover:text-[navy] dark:text-white dark:hover:text-[#1bacef] font-semibold'>Contact</a></li>
  </>
 
     return (
         <div className=''>
-           <div className="bg-[#DDE4F8] dark:bg-black shadow-sm navbar lg:px-12 fixed right-0 top-0 z-40">
+           <div className="bg-[#DDE4F8] dark:bg-[#050312] dark:border-b-2 dark:border-[#0c072b] shadow-sm navbar lg:px-12 fixed right-0 top-0 z-40">
   <div className="navbar-start">
  
-    <Link className="btn btn-ghost normal-case text-xl text-[navy] dark:text-[#077612] font-bold">Mission</Link>
+    <Link className="btn btn-ghost normal-case text-xl text-[navy] dark:text-[#1bacef] font-bold">Mission</Link>
   </div>
   <div className="navbar-end">
     <ul className="hidden lg:flex menu menu-horizontal text-sm px-1 uppercase">

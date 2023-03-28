@@ -8,7 +8,7 @@ const ProductData = ({ productCategorie }) => {
             <div className="cardDetails shadow-xl">
                 <figure><img src={productCategorie.image} alt="" /></figure>
                 <div className="card-body">
-                    <h2 className="card-title text-2xl text-[#077612]">{productCategorie.website_name}</h2>
+                    <h2 className="card-title text-2xl text-[#1bacef]">{productCategorie.website_name}</h2>
                     <p className='text-justify'>{productCategorie.question}</p>
 
                 </div>

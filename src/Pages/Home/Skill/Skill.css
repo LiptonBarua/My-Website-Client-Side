@@ -9,7 +9,7 @@
     bottom: 8px;
     visibility: hidden;
     padding-left: 6px;
-    color: greenyellow;
+    color: #1bacef;
 }
   .ProgWidth {
     padding: 0px 20px 0 0;
@@ -27,7 +27,7 @@
   .darkSkillBar {
     display: block;
     height: 15px;
-    background-color: #077612;
+    background-color: #1bacef;
   }
   .p {
     display: flex;

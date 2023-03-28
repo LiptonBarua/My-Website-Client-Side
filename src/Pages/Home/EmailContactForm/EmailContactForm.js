@@ -24,18 +24,18 @@ const EmailContactForm = () => {
         toast.success('message success')
     }
     return (
-        <div className='bg-[#e6ebf6] dark:bg-[#0f0a03] py-20' id='contact'>
+        <div className='bg-[#e6ebf6] dark:bg-[#08051d] py-20' id='contact'>
            <section className="py-6  dark:text-gray-50">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2">
 		<div className="py-6 md:py-0 md:px-6">
-            <p className="pt-2 pb-4 text-[navy] dark:text-[#077612] font-bold">Contact Me</p>
+            <p className="pt-2 pb-4 text-[navy] dark:text-[#1bacef] font-bold">Contact Me</p>
 			<h1 className="text-4xl text-black dark:text-white pb-4 font-bold">Get in Touch</h1>
 			<div className="space-y-4">
                 	<p className="flex items-center">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 mr-2 sm:mr-6">
 						<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
 					</svg>
-					<span>01638776808</span>
+					<span>+8801638776808</span>
 				</p>
 				<p className="flex items-center">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 mr-2 sm:mr-6">
@@ -59,12 +59,12 @@ const EmailContactForm = () => {
                                         <p>Name</p>
                                         <input className='block w-full p-2 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 ' type="text" name='user_name' placeholder="Name" required />
                                     </div>
-                                    <div>
+                                    <div className='my-2'>
                                         <p>Email</p>
                                         <input className='block w-full p-2 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 ' type="email" name='user_email' placeholder="Email" required />
                                     </div>
 
-                                    <div>
+                                    <div className='mb-2'>
                                         <p>Phone</p>
                                         <input className='block w-full p-2 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 ' type="phone" name="user_phone" placeholder="Phone" required />
                                     </div>
@@ -73,7 +73,7 @@ const EmailContactForm = () => {
                                         <textarea className='block w-full pl-2 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 ' rows="4" name='message' placeholder="Message" required></textarea>
                                     </div>
                                     <div className='mt-3'>
-                                        <button className='text-white border border-[navy] bg-[navy] dark:border-[#077612] dark:bg-[#077612] dark:text-black font-bold uppercase text-xs px-7 py-3 rounded  mr-1 mb-1'>Submit</button>
+                                        <button className='text-white border border-[navy] bg-[navy] dark:border-[#1bacef] dark:bg-[#1bacef] dark:text-black font-bold uppercase text-xs px-7 py-3 rounded  mr-1 mb-1'>Submit</button>
 
                                     </div>
 

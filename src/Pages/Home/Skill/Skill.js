@@ -9,7 +9,7 @@ const Skill = () => {
 
     return (
         <div className='mx-4 lg:max-w-[90%] lg:mx-auto py-24' id='skill'>
-          <h1 className='text-center divider dark:text-[#077612] text-2xl md:text-3xl mt-24'>My Skill</h1>
+          <h1 className='text-center divider dark:text-[#1bacef] text-2xl md:text-3xl mt-24'>My Skill</h1>
     <div className=" grid md:grid-cols-2 dark:text-white">
       <p className="skl"></p>
       <p className="skl sklLine">_________</p>

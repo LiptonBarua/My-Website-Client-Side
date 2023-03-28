@@ -1,6 +1,6 @@
 import { useTheme } from 'next-themes';
 import React from 'react';
-import banner from '../../../assets/Image/Black Modern 3D Artist Twitter Header.png';
+
 import './SmallBanner.css'
 
 const SmallBanner = () => {
