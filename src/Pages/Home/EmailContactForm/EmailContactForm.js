@@ -28,8 +28,8 @@ const EmailContactForm = () => {
            <section className="py-6  dark:text-gray-50">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2">
 		<div className="py-6 md:py-0 md:px-6">
-            <p className="pt-2 pb-4 text-[navy] dark:text-[#1bacef] font-bold">Contact Me</p>
-			<h1 className="text-4xl text-black dark:text-white pb-4 font-bold">Get in Touch</h1>
+            <p className="pt-2 pb-4 text-[navy] dark:text-[#1bacef] text-xl font-bold">Contact Me</p>
+			<h1 className="text-4xl text-[#050312] dark:text-white pb-4 font-bold">Get in Touch</h1>
 			<div className="space-y-4">
                 	<p className="flex items-center">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 mr-2 sm:mr-6">
@@ -73,7 +73,7 @@ const EmailContactForm = () => {
                                         <textarea className='block w-full pl-2 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 ' rows="4" name='message' placeholder="Message" required></textarea>
                                     </div>
                                     <div className='mt-3'>
-                                        <button className='text-white border border-[navy] bg-[navy] dark:border-[#1bacef] dark:bg-[#1bacef] dark:text-black font-bold uppercase text-xs px-7 py-3 rounded  mr-1 mb-1'>Submit</button>
+                                        <button className='text-white border border-[navy] bg-[navy] dark:border-[#1bacef] dark:bg-[#1bacef] dark:text-[#050312] font-bold uppercase text-xs px-7 py-3 rounded  mr-1 mb-1'>Submit</button>
 
                                     </div>
 

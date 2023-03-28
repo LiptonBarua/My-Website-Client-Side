@@ -29,17 +29,17 @@ const Banner = () => {
                             Creative Web Designer || Full-Stack-Developer || Front-End-Developer
                         </div>
                         <div className='mt-4'>
-                            <button className="text-[#1bacef] border border-[#1bacef] hover:bg-[#1bacef] hover:text-black  font-bold text-sm px-8 py-3 rounded-3xl outline-none  mr-1 mb-1 ease-linear transition-all duration-150" type="button">Hire Me</button>
-                            <a href='https://drive.google.com/file/d/19Hw0gRU5klDMeCKoxnHB7C1wm8A0lBJW/view?usp=sharing' download='Lipton Barua Resume.pdf'>   <button class="text-black border border-[#1bacef] hover:bg-[black] hover:text-[#1bacef] active:bg-[#1bacef] bg-[#1bacef] font-bold text-sm px-8 py-3 rounded-3xl  outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Get Resume</button></a>
+                            <button className="text-[#1bacef] border border-[#1bacef] hover:bg-[#1bacef] hover:text-[#050312]  font-bold text-sm px-8 py-3 rounded-3xl outline-none  mr-1 mb-1 ease-linear transition-all duration-150" type="button">Hire Me</button>
+                            <a href='https://drive.google.com/file/d/19Hw0gRU5klDMeCKoxnHB7C1wm8A0lBJW/view?usp=sharing' download='Lipton Barua Resume.pdf'>   <button class="text-[#050312] border border-[#1bacef] hover:bg-[black] hover:text-[#1bacef] active:bg-[#1bacef] bg-[#1bacef] font-bold text-sm px-8 py-3 rounded-3xl  outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Get Resume</button></a>
                         </div>
 
                         <div className='mt-3'>
                             <p>
                                 <div className='flex'>
                                   
-                                    <a href="https://www.linkedin.com/in/lipton-barua-2818b1259/" target='_blank' className='m-2 text-xl text-black bg-[#1bacef] p-1 rounded-full'><GrLinkedinOption></GrLinkedinOption></a>
-                                    <a href="https://github.com/LiptonBarua" target='_blank' className='m-2 text-xl text-black bg-[#1bacef] p-1 rounded-full'><GrGithub></GrGithub></a>
-                                    <a href="https://www.facebook.com/lipton.barua.33/" target='_blank' className='m-2 text-xl text-black bg-[#1bacef] p-1 rounded-full'><GrFacebookOption></GrFacebookOption></a>
+                                    <a href="https://www.linkedin.com/in/lipton-barua-2818b1259/" target='_blank' className='m-2 text-xl text-[#050312] bg-[#1bacef] p-1 rounded-full'><GrLinkedinOption></GrLinkedinOption></a>
+                                    <a href="https://github.com/LiptonBarua" target='_blank' className='m-2 text-xl text-[#050312] bg-[#1bacef] p-1 rounded-full'><GrGithub></GrGithub></a>
+                                    <a href="https://www.facebook.com/lipton.barua.33/" target='_blank' className='m-2 text-xl text-[#050312] bg-[#1bacef] p-1 rounded-full'><GrFacebookOption></GrFacebookOption></a>
                                 </div>
                             </p>
                         </div>
@@ -60,8 +60,8 @@ const Banner = () => {
                     </div>
                     <div>
                         <h1 className=" font-bold text-lg text-[navy]">Hello, i'm</h1>
-                        <h1 className="text-4xl md:text-6xl font-bold text-black">Lipton Barua</h1>
-                        <div className=' text-black mt-3 font-semibold'>
+                        <h1 className="text-4xl md:text-6xl font-bold text-[#050312]">Lipton Barua</h1>
+                        <div className=' text-[#050312] mt-3 font-semibold'>
                         Creative Web Designer || Full-Stack-Developer || Front-End-Developer
                         </div>
                         <div className='mt-4'>

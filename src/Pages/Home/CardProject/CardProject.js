@@ -12,11 +12,11 @@ const CardProjects = ({ card }) => {
                 <figure><img src={image1} alt="" /></figure>
                 <div className="card-body my-6">
                     <h2 className="card-title dark:text-white">{website_name}</h2>
-                    <a href={website} target="_blank"> <button className="bg-[navy] text-white dark:bg-[#1bacef] dark:text-black py-2 px-3 w-full">Live Site</button></a>
+                    <a href={website} target="_blank"> <button className="bg-[navy] text-white dark:bg-[#1bacef] dark:text-[#050312] py-2 px-3 w-full">Live Site</button></a>
                   
                     <div className="flex justify-between ">
-                        <a href={githubClient}> <button className="bg-[navy] text-white dark:bg-[#1bacef] dark:text-black py-2 px-3 w-full">Github Client</button></a>
-                        <a href={githubServer}> <button className="bg-[navy] text-white dark:bg-[#1bacef] dark:text-black py-2 px-3 w-full">Github Server</button></a>
+                        <a href={githubClient}> <button className="bg-[navy] text-white dark:bg-[#1bacef] dark:text-[#050312] py-2 px-3 w-full">Github Client</button></a>
+                        <a href={githubServer}> <button className="bg-[navy] text-white dark:bg-[#1bacef] dark:text-[#050312] py-2 px-3 w-full">Github Server</button></a>
                         
                     </div>
                     {/* <Link to={`/product/${_id}`}><button className="bg-[navy] text-white py-2 px-3 w-full">Project Details</button></Link> */}
