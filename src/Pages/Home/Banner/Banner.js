@@ -25,12 +25,12 @@ const Banner = () => {
                     <div>
                         <h1 className=" font-bold text-lg text-[#1bacef]">Hello, i'm</h1>
                         <h1 className="text-4xl md:text-6xl font-bold text-white">Lipton Barua</h1>
-                        <div className=' text-black mt-2 font-semibold text-white'>
-                            Creative Web Designer & Full-Stack-Developer
+                        <div className='  mt-3 font-semibold text-white'>
+                            Creative Web Designer || Full-Stack-Developer || Front-End-Developer
                         </div>
                         <div className='mt-4'>
                             <button className="text-[#1bacef] border border-[#1bacef] hover:bg-[#1bacef] hover:text-black  font-bold text-sm px-8 py-3 rounded-3xl outline-none  mr-1 mb-1 ease-linear transition-all duration-150" type="button">Hire Me</button>
-                            <a href='Lipton Barua Resume.pdf' download='Lipton Barua Resume.pdf'>   <button class="text-black border border-[#1bacef] hover:bg-[black] hover:text-[#1bacef] active:bg-[#1bacef] bg-[#1bacef] font-bold text-sm px-8 py-3 rounded-3xl  outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Get Resume</button></a>
+                            <a href='https://drive.google.com/file/d/19Hw0gRU5klDMeCKoxnHB7C1wm8A0lBJW/view?usp=sharing' download='Lipton Barua Resume.pdf'>   <button class="text-black border border-[#1bacef] hover:bg-[black] hover:text-[#1bacef] active:bg-[#1bacef] bg-[#1bacef] font-bold text-sm px-8 py-3 rounded-3xl  outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Get Resume</button></a>
                         </div>
 
                         <div className='mt-3'>
@@ -61,12 +61,12 @@ const Banner = () => {
                     <div>
                         <h1 className=" font-bold text-lg text-[navy]">Hello, i'm</h1>
                         <h1 className="text-4xl md:text-6xl font-bold text-black">Lipton Barua</h1>
-                        <div className=' text-black mt-2 font-semibold'>
-                            Creative Web Designer & Full-Stack-Developer
+                        <div className=' text-black mt-3 font-semibold'>
+                        Creative Web Designer || Full-Stack-Developer || Front-End-Developer
                         </div>
                         <div className='mt-4'>
                             <button className="text-[navy] border border-[navy] hover:bg-[navy] hover:text-white  font-bold text-sm px-8 py-3 rounded-3xl outline-none  mr-1 mb-1 ease-linear transition-all duration-150" type="button">Hire Me</button>
-                            <a href='Lipton Barua Resume.pdf' download='Lipton Barua Resume.pdf'>   <button class="text-white border border-[navy] hover:bg-[#DDE4F8] hover:text-[navy] active:bg-[navy] bg-[navy] font-bold text-sm px-8 py-3 rounded-3xl  outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Get Resume</button></a>
+                            <a href='https://drive.google.com/file/d/19Hw0gRU5klDMeCKoxnHB7C1wm8A0lBJW/view?usp=sharing' download='Lipton Barua Resume.pdf' >   <button class="text-white border border-[navy] hover:bg-[#DDE4F8] hover:text-[navy] active:bg-[navy] bg-[navy] font-bold text-sm px-8 py-3 rounded-3xl  outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Get Resume</button></a>
                         </div>
 
                         <div className='mt-3'>
