@@ -8,6 +8,7 @@ import {  Button, Element, Events, animateScroll as scroll, scrollSpy, scroller 
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
 	const [mounted, setMounted] = useState(false);
+  const [openNav, setOpenNav] = useState(false);
 
   useEffect(() => {
 		setMounted(true)
@@ -60,12 +61,43 @@ const Navbar = () => {
     </ul>
     { renderThemeChanger()}
 <div className="dropdown dropdown-end">
-  <label tabIndex={0} className="btn btn-ghost dark:text-white m-1 lg:hidden">
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+  <label onClick={()=>setOpenNav(!openNav)} tabIndex={0} className="btn btn-ghost dark:text-white m-1 lg:hidden">
+    {
+      openNav?  <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      className="h-6 w-6"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={2}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M6 18L18 6M6 6l12 12"
+      />
+    </svg> : <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-6 w-6"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M4 6h16M4 12h16M4 18h16"
+      />
+    </svg>
+    }
+ 
   </label>
-  <ul tabIndex={0} className="uppercase dropdown-content menu p-2 shadow bg-[#DDE4F8] dark:bg-black dark:text-white rounded-box w-52">
-  {manuItem}
-  </ul>
+  {
+    openNav &&  <ul tabIndex={0} className="uppercase dropdown-content menu p-2 shadow bg-[#DDE4F8] dark:bg-black dark:text-white rounded-box w-52">
+    {manuItem}
+    </ul>
+  }
+ 
 </div>
   </div>
  
