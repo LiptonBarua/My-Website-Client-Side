@@ -3,7 +3,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 
 const About = () => {
     return (
-        <div className='pt-0 md:pt-16' id='about'>
+        <div className='pt-0 md:pt-16 lg:max-w-[92%] lg:mx-auto' id='about' >
 
             <div className="hero">
                 <div className="hero-content flex-col md:flex-row items-center">
@@ -14,8 +14,8 @@ const About = () => {
                     <div className='md:ml-40 dark:text-white'>
 
                         <h1 className="text-xl font-bold text-[navy] dark:text-[#1bacef]">About Us</h1>
-                        <h2 className='font-bold text-xl md:text-2xl'>I am Creative Full Stack Developer</h2>
-                        <p className="py-6 text-justify">I am a full stack developer. I can provide clean code and pixel perfect designs. I make the website more interactive with web animations. I can provide clean code and pixel perfect designs. I also make the website more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their devices</p>
+                        <h2 className='font-bold text-xl md:text-2xl'>I am Creative <span className=''>Full Stack Developer</span></h2>
+                        <p className="py-6 text-justify dark:text-gray-300">I am a full stack developer. I can provide clean code and pixel perfect designs. I make the website more interactive with web animations. I can provide clean code and pixel perfect designs. I also make the website more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their devices</p>
                         {/* <Link to='/'><button className="btn bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-pink-500 hover:to-yellow-500 text-[#050312]">Get Started</button></Link> */}
                         <div>
                         

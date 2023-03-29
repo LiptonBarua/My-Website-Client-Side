@@ -49,7 +49,7 @@ const Navbar = () => {
 
     return (
         <div className=''>
-           <div className="bg-[#DDE4F8] dark:bg-[#050312] dark:border-b-2 dark:border-[#0c072b] shadow-sm navbar lg:px-12 fixed right-0 top-0 z-40">
+           <div className="bg-[#DDE4F8] dark:bg-[#050312] dark:border-b-2 dark:border-[#0c072b] shadow-sm navbar lg:px-14 fixed right-0 top-0 z-40">
   <div className="navbar-start">
  
     <Link className="btn btn-ghost normal-case text-xl text-[navy] dark:text-[#1bacef] font-bold">Mission</Link>
