@@ -93,7 +93,7 @@ const Navbar = () => {
  
   </label>
   {
-    openNav &&  <ul tabIndex={0} className="uppercase dropdown-content menu p-2 shadow bg-[#DDE4F8] dark:bg-black dark:text-white rounded-box w-52">
+    openNav &&  <ul tabIndex={0} className="uppercase dropdown-content menu p-2 shadow bg-[#DDE4F8] dark:bg-[#050312] dark:text-white rounded-box w-52">
     {manuItem}
     </ul>
   }
