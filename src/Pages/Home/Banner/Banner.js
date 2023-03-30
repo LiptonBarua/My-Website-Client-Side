@@ -54,7 +54,7 @@ const Banner = () => {
 
 
             <div className="hero">
-                <div className="hero-content flex-col lg:flex-row-reverse justify-between">
+                <div className="hero-content flex-col md:flex-row-reverse justify-between">
                     <div className='relative'>
                         <img src={image} className="w-64  rounded-lg lg:ml-80  mb-0" alt='' />
                     </div>
