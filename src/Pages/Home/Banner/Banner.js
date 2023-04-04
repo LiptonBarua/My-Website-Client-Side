@@ -23,7 +23,7 @@ const Banner = () => {
                         <img src={darkimage} className="w-64  rounded-lg lg:ml-80  mb-0" alt='' />
                     </div>
                     <div>
-                        <h1 className=" font-bold text-lg text-[#1bacef]">Hello, i'm</h1>
+                        <h1 className="font-bold text-lg text-[#1bacef]">Hello, i'm</h1>
                         <h1 className="text-4xl md:text-6xl font-bold text-white">Lipton Barua</h1>
                         <div className='  mt-3 font-semibold text-white'>
                             Creative Web Designer || Full-Stack-Developer || Front-End-Developer
